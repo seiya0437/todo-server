@@ -7,9 +7,6 @@
   "scripts": {
     "dev": "node --loader ts-node/esm src/index.ts"
   },
-  "engines": {
-    "node": ">=18.18"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
