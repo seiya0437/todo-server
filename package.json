@@ -5,8 +5,10 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon --exec node --loader ts-node/esm src/index.ts",
-    "build": "tsc"
+    "dev": "nodemon --exec node --loader ts-node/esm src/index.ts"
+  },
+  "engines": {
+    "node": ">=18.18"
   },
   "keywords": [],
   "author": "",
